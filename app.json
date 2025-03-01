@@ -1,0 +1,27 @@
+{
+    "name": "trading-trend-app",
+    "description": "단일종목 추세추종 백테스트 애플리케이션",
+    "keywords": [
+      "python",
+      "streamlit",
+      "trading",
+      "backtest"
+    ],
+    "repository": "https://github.com/username/trading-trend-app",
+    "success_url": "/",
+    "env": {
+      "STREAMLIT_SERVER_PORT": {
+        "description": "The port Streamlit will use",
+        "value": "8501"
+      },
+      "STREAMLIT_SERVER_HEADLESS": {
+        "description": "Hides the hamburger menu",
+        "value": "true"
+      }
+    },
+    "buildpacks": [
+      {
+        "url": "heroku/python"
+      }
+    ]
+  }
