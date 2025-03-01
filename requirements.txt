@@ -5,5 +5,9 @@ matplotlib==3.8.0
 seaborn==0.13.0
 plotly==5.18.0
 yfinance==0.2.30
-bt==0.2.9
+ffn>=0.3.5
 pandas-ta==0.3.14b0
+python-dateutil==2.8.2
+
+# bt 패키지를 pip가 아닌 직접 설치
+# bt==0.2.9
