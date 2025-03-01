@@ -18,8 +18,8 @@ RUN apt-get update && apt-get install -y \
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-# bt 패키지 직접 설치
-RUN pip install --no-cache-dir git+https://github.com/pmorissette/bt.git@0.2.9
+# bt 패키지 직접 설치 - 최신 main 브랜치 사용
+RUN pip install --no-cache-dir git+https://github.com/pmorissette/bt.git
 
 # 나머지 소스 코드 복사
 COPY . .
